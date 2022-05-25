@@ -1,8 +1,9 @@
 <template>
     <div>
 
-        Login
-            <section class="forms">
+       
+        <section class="forms">
+                <br>
 
                 <form class="register">
                     <h2>Register</h2>
@@ -21,9 +22,26 @@
                     type="submit" 
                     value="Register">
 
-                    </form>
-                
-                <form class="login"></form>
+                </form>
+                <br>
+                <br>
+                <form class="login">
+                      <h2>Login</h2>
+                    
+                    <input type="email"
+                     placeholder="Enter email"
+                     >
+                     <!-- v-model="login_form.email" -->
+                    
+                    <input type="password"
+                    placeholder="password"
+                    >
+                    <!-- v-model="login_form.password" -->
+
+                    <input 
+                    type="submit" 
+                    value="Login">
+                </form>
 
             </section>
 
